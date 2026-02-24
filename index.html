@@ -161,6 +161,19 @@
             font-weight: 700;
         }
 
+        .thank-you-content p {
+            font-size: 32px;
+            color: #764ba2;
+            margin-top: 20px;
+            font-weight: 700;
+            animation: blink 0.8s infinite;
+        }
+
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0.3; }
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -226,6 +239,10 @@
             .thank-you-content h2 {
                 font-size: 36px;
             }
+
+            .thank-you-content p {
+                font-size: 24px;
+            }
         }
     </style>
 </head>
@@ -251,6 +268,7 @@
     <div class="thank-you-overlay" id="thankYouOverlay">
         <div class="thank-you-content">
             <h2>Grazie mille! 🎉</h2>
+            <p>SEI UNA BELLA PERSONAAAAA</p>
         </div>
     </div>
 
